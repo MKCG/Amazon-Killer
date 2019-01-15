@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Amazon Killer",
-  "description": "Cherchez un livre sur Amazon et trouvez-le dans une vraie librairie",
+  "name": "Amazon > Paris Librairies",
+  "description": "Cherchez un livre sur Amazon et trouvez-le sur Paris Librairies",
 
   "version": "1",
 
@@ -15,7 +15,7 @@
       "js":      ["jquery.js", "content.js"]
   }],
   "browser_action": {
-      "default_title": "Find a bookshop",
+      "default_title": "Trouve un livre sur Paris Librairies",
       "default_icon": "icon.png"
   },
 
@@ -25,8 +25,9 @@
 
   "permissions": ["activeTab"],
   
-  "icons": { "16": "icon.png",
-             "48": "icon.png",
-            "128": "icon.png" }
-
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
 }
